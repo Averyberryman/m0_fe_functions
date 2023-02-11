@@ -56,4 +56,5 @@ return avg
   }
   console.log (average(78, 97))
 
-  // This function was fine on its own but wasn't printing to the console until I entered numerical values to demonstrate it. I added 78, 97 to see if the average was correct.
+  // This function was fine on its own but wasn't printing to the console until I entered numerical values to demonstrate it. 
+  // I added 78, 97 to see if the average was correct.
