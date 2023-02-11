@@ -8,23 +8,32 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
 
+function askForName() { 
+  console.log("Hello, what is your name?") 
+}
+ 
 askForName()
+
+// In this example, I simply modified the code so that the code block followed the conventional structure.
+
 
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+function addThreeNums(first, second, third) {
+  var sum = (first + second + third)
+  return sum;
+   }
+  
+  console.log (addThreeNums(1, 2, 3));
+  console.log (addThreeNums(4, 2, 7));
+  // This code was incomplete because we needed to call on the function which required an extra set of parentheses.
 
 
 // EX 3:
-func makeFreshPesto(){
+
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -33,8 +42,11 @@ func makeFreshPesto(){
 
 makeFreshPesto();
 
+// This function was just incomplete as it was labeled "func" which failed to intiate the code.
+
 
 //  EX 4:
+
 function average(num1, num2) 
   {
 var sum = num1 + num2;
@@ -42,3 +54,6 @@ var sum = num1 + num2;
 
 return avg
   }
+  console.log (average(78, 97))
+
+  // This function was fine on its own but wasn't printing to the console until I entered numerical values to demonstrate it. I added 78, 97 to see if the average was correct.
