@@ -6,7 +6,7 @@
 // 1: Write a function named greeting that returns a string with a general greeting. 
 
 function greeting() {
-    return 'Hello, User!'
+    return 'Hello, User!';
 } 
 
 var greeting1 = greeting();
@@ -20,11 +20,11 @@ console.log(greeting2);
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
 function customGreeting(name) {
-    return `Hello, ${name}, how is your day going?`;;
+    return `Hello, ${name}, how is your day going?`;
 }
 
 var customGreeting1 = customGreeting("Jack");
-var customGreeting2 = customGreeting("Jeremy")
+var customGreeting2 = customGreeting("Jeremy");
 
 console.log(customGreeting1);
 console.log(customGreeting2);
@@ -37,16 +37,18 @@ function greetPerson(first, middle, last) {
 }
 var greetPerson1 = greetPerson("Lily", "Brent", "Berryman",);
 var greetPerson2 = greetPerson(`Avery`, `Hilton`, `Berryman`);
+var greetPerson3 = greetPerson(`Your`, `College`, `Mom`);
 
 console.log(greetPerson1);
 console.log(greetPerson2);
+console.log(greetPerson3);
 
             
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
 function square(number) {
-    var sum = number * number
-    return `the square of ${number} is ${sum}`
+    var sum = number * number;
+    return `the square of ${number} is ${sum}`;
   }
   
   var sum1 = square(8);
@@ -70,15 +72,15 @@ function checkStock(num, item) {
     return `${item} - running LOW`;
     }
 }
-var coffee = checkStock(4, "Coffee")
-var tortillas = checkStock(3, "Tortillas")
-var cheese = checkStock(0, "cheese")
-var salsa = checkStock(1, "Salsa")
+var coffee = checkStock(4, "Coffee");
+var tortillas = checkStock(3, "Tortillas");
+var cheese = checkStock(0, "cheese");
+var salsa = checkStock(1, "Salsa");
 
-console.log(coffee)
-console.log(tortillas)
-console.log(cheese)
-console.log(salsa)
+console.log(coffee);
+console.log(tortillas);
+console.log(cheese);
+console.log(salsa);
 
 
 checkStock(4, "Coffee");
